@@ -4,6 +4,10 @@ Companies can enter their information and post job advertisements. With Admin Ma
 Measures have been taken to protect the site against attacks such as CSRF, XSS, and SQL Injection.
 The Authorization and Authentication processes are implemented using Microsoft Identity features. 
 The use by third parties is prohibited, and all requests are carried out over HTTPS. Wishing you success. Sincerely, Nihad Alasgarov.
-Contact :
+( Contact )
+Instagram  
 https://www.instagram.com/niihadelesgerov/
+
+
+LinkedIn
 https://www.linkedin.com/in/nihad-alasgarov-1a7934200/
