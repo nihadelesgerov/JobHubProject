@@ -1,0 +1,191 @@
+﻿@model EmployeeFM
+@{
+    Layout = null;
+}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edit Account</title>
+    <link rel="icon" type="image/x-icon" href="~/download.png">
+
+</head>
+<body>
+    @Html.AntiForgeryToken()
+    <div class="form-container">
+        <h1>Job Seeker Profile</h1>
+        <form asp-action="EditInfo" method="post">
+            <!-- Email -->
+            <div class="form-group">
+                <label>Email: <strong>@ViewBag.Email</strong></label>
+            </div>
+
+            <!-- Skills -->
+            <div class="form-group">
+                <label>Skills</label>
+                <input value="@ViewBag.Skills" asp-for="Skills" id="skills" />
+            </div>
+
+            <!-- Education -->
+            <div class="form-group">
+                <label>Education</label>
+                <input value="@ViewBag.Education" asp-for="Education" id="education" />
+            </div>
+
+            <!-- Experience -->
+            <div class="form-group">
+                <label>Experience</label>
+                <input value="@ViewBag.Experience" asp-for="Experience" id="experience" />
+            </div>
+
+            <!-- Industry -->
+            <div class="form-group">
+                <label>Industry</label>
+                <select asp-for="Industry" name="industries">
+                    <option value="technology">Technology</option>
+                    <option value="healthcare">Healthcare</option>
+                    <option value="finance">Finance</option>
+                    <option value="education">Education</option>
+                    <option value="retail">Retail</option>
+                    <option value="manufacturing">Manufacturing</option>
+                    <option value="hospitality">Hospitality</option>
+                    <option value="real_estate">Real Estate</option>
+                    <option value="transportation">Transportation</option>
+                    <option value="construction">Construction</option>
+                    <option value="agriculture">Agriculture</option>
+                    <option value="energy">Energy</option>
+                    <option value="telecommunications">Telecommunications</option>
+                    <option value="entertainment">Entertainment</option>
+                    <option value="legal_services">Legal Services</option>
+                    <option value="nonprofit">Nonprofit</option>
+                    <option value="government">Government</option>
+                    <option value="tourism">Tourism</option>
+                    <option value="environmental_services">Environmental Services</option>
+                    <option value="media_communications">Media and Communications</option>
+                </select>
+            </div>
+
+            <!-- Social Media Links -->
+            <div class="form-group">
+                <label>Social Media Links</label>
+                <input value="@ViewBag.SocialMediaLinks" asp-for="SocialMediaLinks" id="socialMediaLinks" />
+            </div>
+
+            <!-- Submit Button -->
+            <button type="submit" class="submit-btn">Submit Profile</button>
+            <span style="color:red">@Html.ValidationMessage("empnotfound")</span>
+        </form>
+
+        <form method="get" asp-controller="Account" asp-action="MyAccount">
+            <button type="submit" class="cancel-btn">Cancel</button>
+        </form>
+    </div>
+
+    <style>
+        /* Reset Styles */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* Body Styling */
+        body {
+            font-family: 'Poppins', sans-serif;
+            background-color: #1f1f1f; /* Qara tonlu fon */
+            color: #f4f4f4; /* Açıq boz mətn */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+
+        select {
+            padding: 10px;
+            border: 1px solid #333;
+            border-radius: 4px;
+            background-color: #2a2a2a;
+            color: #f4f4f4;
+            font-size: 16px;
+        }
+
+        /* Form Container */
+        .form-container {
+            width: 500px;
+            background-color: #2a2a2a; /* Qaranlıq fon */
+            padding: 30px;
+            border-radius: 12px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+        }
+
+        /* Form Header */
+        h1 {
+            margin-bottom: 20px;
+            text-align: center;
+            color: #f4f4f4;
+        }
+
+        /* Form Group */
+        .form-group {
+            margin-bottom: 15px;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: bold;
+            color: #f4f4f4;
+        }
+
+        input[type="text"],
+        input[type="email"] {
+            width: 100%;
+            padding: 10px;
+            margin-top: 5px;
+            border: 1px solid #333;
+            border-radius: 5px;
+            background-color: #1f1f1f;
+            color: #f4f4f4;
+            font-size: 1rem;
+        }
+
+        input:focus {
+            border-color: #444;
+            outline: none;
+        }
+
+        /* Buttons */
+        .submit-btn {
+            width: 100%;
+            padding: 12px;
+            background-color: #444;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+            .submit-btn:hover {
+                background-color: #555;
+            }
+
+        .cancel-btn {
+            width: 100%;
+            padding: 12px;
+            margin-top: 20px;
+            background-color: red;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+            .cancel-btn:hover {
+                background-color: darkred;
+            }
+    </style>
+</body>
+</html>

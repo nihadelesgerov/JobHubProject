@@ -1,0 +1,223 @@
+﻿@model IList<Job>
+@{
+    Layout = null;
+}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="~/download.png">
+
+    <title>@ViewBag.Title</title>
+</head>
+<body>
+    <header class="header">
+        <div class="logo">
+            <h1>JobHub</h1>
+        </div>
+        <nav class="nav-links">
+            <a asp-action="HomePage" asp-controller="Main">HomePage</a>
+        </nav>
+    </header>
+
+    <main class="content">
+        <section class="job-header">
+            <h2>@ViewBag.CurrentJob.Title</h2>
+            <p class="company">
+                <a>@ViewBag.CurrentJob.Company.CompanyName</a> | @ViewBag.CurrentJob.Location
+            </p>
+            <p class="posted"><strong>Posted on</strong> @ViewBag.CurrentJob.PostedAt <br /> <strong>Deadline</strong>:@ViewBag.CurrentJob.ApplicationDeadline</p>
+        </section>
+
+        <section class="job-description">
+            <h3>Job Description</h3>
+            <p>
+                @ViewBag.CurrentJob.Description
+            </p>
+            <h4>Requirements</h4>
+            <ul>
+                @ViewBag.CurrentJob.Skills
+            </ul>
+            <h4>Salary & Benefits</h4>
+            <p>Monthly Salary: @ViewBag.CurrentJob.Salary</p>
+        </section>
+
+        <section class="related-jobs">
+            <h3>Related Jobs</h3>
+            <div class="related-job-cards">
+                @foreach(var job in Model)
+                {
+                   <a target="_blank" asp-controller="Main" asp-action="Jobs" asp-route-id="@job.Id">
+                        <div class="related-job-card">
+                            <h4>@job.Title</h4>
+                            <p>@job.Company.CompanyName | @job.Location</p>
+                        </div>
+                   </a>
+                }
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p>&copy; 2024 KaryeSphera. All rights reserved.</p>
+    </footer>
+    <style>
+              /* Reset Styles */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* General Styles */
+        body {
+            font-family: 'Poppins', sans-serif;
+            background-color: #f4f6f8;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        a {
+            text-decoration: none;
+            color: #1976d2;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        /* Header */
+        .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px;
+            background-color: #1f1f1f;
+            color: white;
+        }
+
+        .nav-links a {
+            margin-left: 20px;
+            font-weight: bold;
+            color: white;
+            transition: color 0.3s;
+        }
+
+        .nav-links a:hover {
+            color: #bbdefb;
+        }
+
+        /* Content */
+        .content {
+            width: 80%;
+            margin: 30px auto;
+        }
+
+        .job-header {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        .job-header h2 {
+            font-size: 2rem;
+            color: #1a237e;
+        }
+
+        .company a {
+            font-weight: bold;
+            color: #1976d2;
+        }
+
+        .posted {
+            font-style: italic;
+            margin-top: 10px;
+        }
+
+        /* Job Description */
+        .job-description {
+            background-color: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            margin-bottom: 30px;
+        }
+
+        .job-description h3 {
+            font-size: 1.5rem;
+            margin-bottom: 10px;
+        }
+
+        .job-description ul {
+            list-style-type: disc;
+            margin-left: 20px;
+            margin-top: 10px;
+        }
+
+        .job-description h4 {
+            margin-top: 20px;
+        }
+
+        /* Apply Section */
+        .apply-section {
+            text-align: center;
+            margin: 20px 0;
+        }
+
+        .apply-btn {
+            background-color: #1976d2;
+            color: white;
+            border: none;
+            padding: 15px 30px;
+            font-size: 1rem;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s, transform 0.2s;
+        }
+
+        .apply-btn:hover {
+            background-color: #1565c0;
+            transform: scale(1.05);
+        }
+
+        .applied-info {
+            margin-top: 10px;
+            font-style: italic;
+        }
+
+        /* Related Jobs */
+        .related-jobs {
+            margin-top: 40px;
+        }
+
+        .related-job-cards {
+            display: flex;
+            gap: 20px;
+            justify-content: space-around;
+        }
+
+        .related-job-card {
+            background-color: #e3f2fd;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            width: 45%;
+            text-align: center;
+        }
+
+        .related-job-card h4 {
+            margin-bottom: 10px;
+        }
+
+        /* Footer */
+        .footer {
+            background-color: #1f1f1f;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            margin-top: 30px;
+        }
+
+    </style>
+</body>
+</html>

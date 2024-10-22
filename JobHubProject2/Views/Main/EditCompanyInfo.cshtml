@@ -1,0 +1,252 @@
+﻿@model CompanyFM
+@{
+    Layout = null;
+}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Company Registration Form</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="~/download.png">
+
+    <style>
+        /* General Reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Poppins', sans-serif;
+            background: linear-gradient(to right, #3a7bd5, #00d2ff);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            color: #fff;
+        }
+
+        form {
+            background-color: #0a1931;
+            width: 80%;
+            max-width: 800px;
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+            animation: fadeIn 0.8s ease-in-out;
+        }
+
+        @@keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(-20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        h2 {
+            text-align: center;
+            margin-bottom: 20px;
+            font-weight: 600;
+            color: #00d2ff;
+        }
+
+        .form-group {
+            display: flex;
+            flex-direction: column;
+            margin-bottom: 15px;
+        }
+
+        label {
+            margin-bottom: 5px;
+            font-weight: 500;
+        }
+
+        input, textarea {
+            padding: 12px;
+            border: none;
+            border-radius: 8px;
+            background-color: #1b2a49;
+            color: #fff;
+            font-size: 1rem;
+            outline: none;
+            transition: all 0.3s ease-in-out;
+        }
+
+        input:focus, textarea:focus {
+            background-color: #2b3e68;
+            border: 2px solid #00d2ff;
+        }
+
+        .form-row {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+        }
+
+        textarea {
+            resize: none;
+            height: 100px;
+        }
+
+        .form-group.full-width {
+            grid-column: 1 / -1;
+        }
+
+        .social-media {
+            margin-top: 20px;
+        }
+
+        .btn-submit {
+            margin-top: 20px;
+            padding: 15px;
+            background-color: #00d2ff;
+            border: none;
+            border-radius: 8px;
+            font-size: 1rem;
+            font-weight: 600;
+            color: #0a1931;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+            width: 100%;
+        }
+
+        .btn-submit:hover {
+            background-color: #008ecf;
+        }
+
+        @@media (max-width: 768px) {
+            .form-row {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <form asp-action="EditCompanyInfo" method="post">
+        @Html.AntiForgeryToken()
+        <h2>Edit Company Info</h2>
+
+        <div class="form-row">
+            <div class="form-group">
+                <label asp-for="CompanyName"></label>
+                <input asp-for="CompanyName" value="@ViewBag.CompanyName" type="text" id="companyName" placeholder="Name of Company" name="CompanyName" >
+                <span style="color:red" asp-validation-for="CompanyName"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Industry"></label>
+                <input asp-for="Industry" value="@ViewBag.Industry" type="text" id="industry" placeholder="Which Industry is in Company" name="Industry" required>
+                <span style="color:red" asp-validation-for="Industry"></span>
+
+            </div>
+        </div>
+
+        <div class="form-row">
+            <div class="form-group">
+                <label asp-for="CompanyFoundedYear"></label>
+                <input asp-for="CompanyFoundedYear" value="@ViewBag.CompanyFoundedYear" placeholder="Foundation year of Company" type="number" id="foundedYear" name="CompanyFoundedYear" min="1800" max="2024" required>
+                <span style="color:red" asp-validation-for="CompanyFoundedYear"></span>
+
+            </div>
+            <div class="form-group">
+                <label asp-for="CompanyType"></label>
+                <input asp-for="CompanyType" value="@ViewBag.CompanyType" type="text" placeholder="What kind of Company is it" id="companyType" name="CompanyType" required>
+                <span style="color:red" asp-validation-for="CompanyType"></span>
+
+            </div>
+        </div>
+
+        <div class="form-row">
+            <div class="form-group">
+                <label asp-for="CompanySize"></label>
+                <input asp-for="CompanySize" value="@ViewBag.CompanySize" type="text" id="companySize" placeholder="e.g How many employee working in" name="CompanySize" required>
+                <span style="color:red" asp-validation-for="CompanySize"></span>
+
+            </div>
+            <div class="form-group">
+                <label asp-for="CompanyHeadOffice"></label>
+                <input asp-for="CompanyHeadOffice" value="@ViewBag.CompanyHeadOffice" type="text" id="headOffice" placeholder="Adress of Head Office" name="CompanyHeadOffice" required>
+                <span style="color:red" asp-validation-for="CompanyHeadOffice"></span>
+
+            </div>
+        </div>
+
+        <div class="form-row">
+            <div class="form-group">
+                <label asp-for="CompanyPhone"></label>
+                <input asp-for="CompanyPhone" value="@ViewBag.CompanyPhone" type="tel" placeholder="Official Work Phone of Company" id="phone" name="CompanyPhone"  required>
+                <span style="color:red" asp-validation-for="CompanyPhone"></span>
+
+            </div>
+            <div class="form-group">
+                <label asp-for="CompanyEmail"></label>
+                <input asp-for="CompanyEmail" value="@ViewBag.CompanyEmail" type="email" placeholder="Official Email Adress of Company ( Email that i input while register isn't consider as official email adress )" id="email" name="CompanyEmail" required>
+                <span style="color:red" asp-validation-for="CompanyEmail"></span>
+
+            </div>
+        </div>
+
+        <div class="form-group full-width">
+            <label asp-for="CompanyWebsite"></label>
+            <input asp-for="CompanyWebsite" value="@ViewBag.CompanyWebsite" placeholder="Official Website of Company" type="url" id="website" name="CompanyWebsite">
+            <span style="color:red" asp-validation-for="CompanyWebsite"></span>
+
+        </div>
+
+        <div class="form-group full-width">
+            <label asp-for="CompanyOverview"></label> 
+            <textarea asp-for="CompanyOverview" id="overview" name="CompanyOverview" placeholder="What is Overview of Company" required> @ViewBag.CompanyOverview</textarea>
+            <span style="color:red" asp-validation-for="CompanyOverview"></span>
+        </div>
+
+        <div class="form-group full-width">
+            <label asp-for="CompanyMission"></label>
+            <textarea asp-for="CompanyMission" placeholder="What kind of service your company suggest" id="mission" name="CompanyMission">@ViewBag.CompanyMission</textarea>
+            <span style="color:red" asp-validation-for="CompanyMission"></span>
+
+        </div>
+
+        <div class="form-group full-width">
+            <label asp-for="CompanyVision"></label>
+            <textarea asp-for="CompanyVision" placeholder="What is future plans and goals of Company" id="vision" name="CompanyVision">@ViewBag.CompanyVision</textarea>
+            <span style="color:red" asp-validation-for="CompanyVision"></span>
+        </div>
+
+        <div class="social-media">
+            <h3>Social Media Links</h3>
+            <div class="form-row">
+                <div class="form-group">
+                    <label asp-for="CompanyLinkedInUrl"></label>
+                    <input asp-for="CompanyLinkedInUrl" value="@ViewBag.CompanyLinkedInUrl" placeholder="Official Linkedin Account of Company" type="url" id="linkedin" name="CompanyLinkedInUrl">
+                    <span style="color:red" asp-validation-for="CompanyLinkedInUrl"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="CompanyTwitterUrl"></label>
+                    <input asp-for="CompanyTwitterUrl" value="@ViewBag.CompanyTwitterUrl" placeholder="Official Twitter Account of Company" type="url" id="twitter" name="CompanyTwitterUrl">
+                    <span style="color:red" asp-validation-for="CompanyTwitterUrl"></span>
+                </div>
+            </div>
+            <div class="form-row">
+                <div class="form-group">
+                    <label asp-for="CompanyFacebookUrl"></label>
+                    <input asp-for="CompanyFacebookUrl" value="@ViewBag.CompanyFacebookUrl" placeholder="Official Facebook Account of Company" type="url" id="facebook" name="CompanyFacebookUrl">
+                    <span style="color:red" asp-validation-for="CompanyFacebookUrl"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="CompanyInstagramUrl"></label>
+                    <input asp-for="CompanyInstagramUrl" value="@ViewBag.CompanyInstagramUrl" placeholder="Official Instagram Account of Company" type="url" id="instagram" name="CompanyInstagramUrl">
+                    <span style="color:red" asp-validation-for="CompanyInstagramUrl"></span>
+                </div>
+            </div>
+        </div>
+
+        <button type="submit" class="btn-submit">Submit Info</button>
+    </form>
+</body>
+</html>

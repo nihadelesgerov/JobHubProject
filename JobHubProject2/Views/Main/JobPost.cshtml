@@ -1,0 +1,201 @@
+﻿@model JobFM
+@{
+    Layout = null;
+}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="~/download.png">
+
+    <title>Create Job Posting</title>
+</head>
+<body>
+    <header class="header">
+        <div class="logo">
+            <h1>JobHub</h1>
+        </div>
+    </header>
+
+    <main class="content">
+        <section class="form-container">
+            <h2>Post a New Job</h2>
+            <form method="post" asp-action="JobPost" id="job-posting-form">
+                <div class="form-group">
+                    <label asp-for="Title">Job Title</label>
+                    <input asp-for="Title" type="text" placeholder="Enter job title" required>
+                </div>
+
+                <div class="form-group">
+                    <label asp-for="Description">Job Description</label>
+                    <textarea asp-for="Description" rows="6" placeholder="Enter job description" required></textarea>
+                </div>
+
+                <div class="form-group">
+                    <label asp-for="Skills">Required Skills (comma-separated)</label>
+                    <input asp-for="Skills" type="text" placeholder="e.g., JavaScript, Teamwork" required>
+                </div>
+
+                <div class="form-row">
+                    <div class="form-group">
+                        <label asp-for="Salary">Min Salary</label>
+                        <input asp-for="Salary" type="number" placeholder="e.g., 1000" required>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label asp-for="Location">Location</label>
+                    <input asp-for="Location" type="text" placeholder="Enter location" required>
+                </div>
+
+                <div class="form-group">
+                    <label asp-for="ApplicationDeadline">Application Deadline</label>
+                    <input asp-for="ApplicationDeadline" type="date" required>
+                </div>
+
+                <button type="submit" class="submit-btn">Post Job</button>
+            </form>
+
+            <div id="confirmation-message" class="confirmation hidden">
+                <p>Your job posting has been successfully created!</p>
+                <a href="/" class="return-link">Return to Home</a>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p>&copy; 2024 KaryeSphera. All rights reserved.</p>
+    </footer>
+
+    <style>
+        /* Reset Styles */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* General Styles */
+        body {
+            font-family: 'Poppins', sans-serif;
+            background-color: #1f1f1f;
+            color: #e0e0e0;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+
+        /* Header */
+        .header {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+            background-color: #292929;
+            color: #e0e0e0;
+        }
+
+        .logo h1 {
+            font-size: 2rem;
+        }
+
+        /* Main Content */
+        .content {
+            flex: 1;
+            width: 80%;
+            margin: 30px auto;
+        }
+
+        .form-container {
+            background-color: #333;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+            max-width: 600px;
+            margin: auto;
+        }
+
+        h2 {
+            text-align: center;
+            margin-bottom: 20px;
+            color: #ffffff;
+        }
+
+        .form-group {
+            margin-bottom: 20px;
+        }
+
+        .form-row {
+            display: flex;
+            gap: 15px;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: bold;
+            color: #e0e0e0;
+        }
+
+        input, textarea {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #444;
+            border-radius: 5px;
+            background-color: #1f1f1f;
+            color: #e0e0e0;
+            transition: border-color 0.3s;
+        }
+
+            input:focus, textarea:focus {
+                border-color: #6200ea;
+                outline: none;
+            }
+
+        .submit-btn {
+            width: 100%;
+            padding: 15px;
+            background-color: #6200ea;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+            .submit-btn:hover {
+                background-color: #4a00b4;
+            }
+
+        /* Confirmation Message */
+        .confirmation {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        .return-link {
+            font-weight: bold;
+            color: #bb86fc;
+        }
+
+            .return-link:hover {
+                text-decoration: underline;
+            }
+
+        .hidden {
+            display: none;
+        }
+
+        /* Footer */
+        .footer {
+            background-color: #292929;
+            color: #e0e0e0;
+            text-align: center;
+            padding: 10px;
+        }
+    </style>
+</body>
+</html>
+
+</html>

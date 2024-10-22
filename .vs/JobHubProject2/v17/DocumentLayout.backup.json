@@ -1,0 +1,401 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Nihad\\source\\repos\\JobHubProject2\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{431A0FF3-F26E-47BF-A3C1-D71CF763EDF8}|JobHubProject2\\JobHubProject2.csproj|c:\\users\\nihad\\source\\repos\\jobhubproject2\\jobhubproject2\\views\\account\\editinfo.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{431A0FF3-F26E-47BF-A3C1-D71CF763EDF8}|JobHubProject2\\JobHubProject2.csproj|solutionrelative:jobhubproject2\\views\\account\\editinfo.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{431A0FF3-F26E-47BF-A3C1-D71CF763EDF8}|JobHubProject2\\JobHubProject2.csproj|c:\\users\\nihad\\source\\repos\\jobhubproject2\\jobhubproject2\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{431A0FF3-F26E-47BF-A3C1-D71CF763EDF8}|JobHubProject2\\JobHubProject2.csproj|solutionrelative:jobhubproject2\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{431A0FF3-F26E-47BF-A3C1-D71CF763EDF8}|JobHubProject2\\JobHubProject2.csproj|c:\\users\\nihad\\source\\repos\\jobhubproject2\\jobhubproject2\\views\\account\\myaccount.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{431A0FF3-F26E-47BF-A3C1-D71CF763EDF8}|JobHubProject2\\JobHubProject2.csproj|solutionrelative:jobhubproject2\\views\\account\\myaccount.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{431A0FF3-F26E-47BF-A3C1-D71CF763EDF8}|JobHubProject2\\JobHubProject2.csproj|c:\\users\\nihad\\source\\repos\\jobhubproject2\\jobhubproject2\\views\\account\\notfound.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{431A0FF3-F26E-47BF-A3C1-D71CF763EDF8}|JobHubProject2\\JobHubProject2.csproj|solutionrelative:jobhubproject2\\views\\account\\notfound.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{431A0FF3-F26E-47BF-A3C1-D71CF763EDF8}|JobHubProject2\\JobHubProject2.csproj|c:\\users\\nihad\\source\\repos\\jobhubproject2\\jobhubproject2\\views\\account\\registercompany.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{431A0FF3-F26E-47BF-A3C1-D71CF763EDF8}|JobHubProject2\\JobHubProject2.csproj|solutionrelative:jobhubproject2\\views\\account\\registercompany.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{431A0FF3-F26E-47BF-A3C1-D71CF763EDF8}|JobHubProject2\\JobHubProject2.csproj|c:\\users\\nihad\\source\\repos\\jobhubproject2\\jobhubproject2\\views\\admin\\admindashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{431A0FF3-F26E-47BF-A3C1-D71CF763EDF8}|JobHubProject2\\JobHubProject2.csproj|solutionrelative:jobhubproject2\\views\\admin\\admindashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{431A0FF3-F26E-47BF-A3C1-D71CF763EDF8}|JobHubProject2\\JobHubProject2.csproj|c:\\users\\nihad\\source\\repos\\jobhubproject2\\jobhubproject2\\views\\admin\\managejobpostings.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{431A0FF3-F26E-47BF-A3C1-D71CF763EDF8}|JobHubProject2\\JobHubProject2.csproj|solutionrelative:jobhubproject2\\views\\admin\\managejobpostings.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{431A0FF3-F26E-47BF-A3C1-D71CF763EDF8}|JobHubProject2\\JobHubProject2.csproj|c:\\users\\nihad\\source\\repos\\jobhubproject2\\jobhubproject2\\views\\admin\\manageusers.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{431A0FF3-F26E-47BF-A3C1-D71CF763EDF8}|JobHubProject2\\JobHubProject2.csproj|solutionrelative:jobhubproject2\\views\\admin\\manageusers.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{431A0FF3-F26E-47BF-A3C1-D71CF763EDF8}|JobHubProject2\\JobHubProject2.csproj|c:\\users\\nihad\\source\\repos\\jobhubproject2\\jobhubproject2\\views\\admin\\registeremployee.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{431A0FF3-F26E-47BF-A3C1-D71CF763EDF8}|JobHubProject2\\JobHubProject2.csproj|solutionrelative:jobhubproject2\\views\\admin\\registeremployee.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{431A0FF3-F26E-47BF-A3C1-D71CF763EDF8}|JobHubProject2\\JobHubProject2.csproj|c:\\users\\nihad\\source\\repos\\jobhubproject2\\jobhubproject2\\views\\main\\companyaccount.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{431A0FF3-F26E-47BF-A3C1-D71CF763EDF8}|JobHubProject2\\JobHubProject2.csproj|solutionrelative:jobhubproject2\\views\\main\\companyaccount.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{431A0FF3-F26E-47BF-A3C1-D71CF763EDF8}|JobHubProject2\\JobHubProject2.csproj|c:\\users\\nihad\\source\\repos\\jobhubproject2\\jobhubproject2\\views\\main\\editcompanyinfo.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{431A0FF3-F26E-47BF-A3C1-D71CF763EDF8}|JobHubProject2\\JobHubProject2.csproj|solutionrelative:jobhubproject2\\views\\main\\editcompanyinfo.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{431A0FF3-F26E-47BF-A3C1-D71CF763EDF8}|JobHubProject2\\JobHubProject2.csproj|c:\\users\\nihad\\source\\repos\\jobhubproject2\\jobhubproject2\\views\\main\\homepage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{431A0FF3-F26E-47BF-A3C1-D71CF763EDF8}|JobHubProject2\\JobHubProject2.csproj|solutionrelative:jobhubproject2\\views\\main\\homepage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{431A0FF3-F26E-47BF-A3C1-D71CF763EDF8}|JobHubProject2\\JobHubProject2.csproj|c:\\users\\nihad\\source\\repos\\jobhubproject2\\jobhubproject2\\views\\main\\jobpost.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{431A0FF3-F26E-47BF-A3C1-D71CF763EDF8}|JobHubProject2\\JobHubProject2.csproj|solutionrelative:jobhubproject2\\views\\main\\jobpost.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{431A0FF3-F26E-47BF-A3C1-D71CF763EDF8}|JobHubProject2\\JobHubProject2.csproj|c:\\users\\nihad\\source\\repos\\jobhubproject2\\jobhubproject2\\views\\main\\jobs.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{431A0FF3-F26E-47BF-A3C1-D71CF763EDF8}|JobHubProject2\\JobHubProject2.csproj|solutionrelative:jobhubproject2\\views\\main\\jobs.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{431A0FF3-F26E-47BF-A3C1-D71CF763EDF8}|JobHubProject2\\JobHubProject2.csproj|c:\\users\\nihad\\source\\repos\\jobhubproject2\\jobhubproject2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{431A0FF3-F26E-47BF-A3C1-D71CF763EDF8}|JobHubProject2\\JobHubProject2.csproj|solutionrelative:jobhubproject2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{431A0FF3-F26E-47BF-A3C1-D71CF763EDF8}|JobHubProject2\\JobHubProject2.csproj|c:\\users\\nihad\\source\\repos\\jobhubproject2\\jobhubproject2\\controllers\\account.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{431A0FF3-F26E-47BF-A3C1-D71CF763EDF8}|JobHubProject2\\JobHubProject2.csproj|solutionrelative:jobhubproject2\\controllers\\account.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{431A0FF3-F26E-47BF-A3C1-D71CF763EDF8}|JobHubProject2\\JobHubProject2.csproj|c:\\users\\nihad\\source\\repos\\jobhubproject2\\jobhubproject2\\controllers\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{431A0FF3-F26E-47BF-A3C1-D71CF763EDF8}|JobHubProject2\\JobHubProject2.csproj|solutionrelative:jobhubproject2\\controllers\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{431A0FF3-F26E-47BF-A3C1-D71CF763EDF8}|JobHubProject2\\JobHubProject2.csproj|c:\\users\\nihad\\source\\repos\\jobhubproject2\\jobhubproject2\\controllers\\admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{431A0FF3-F26E-47BF-A3C1-D71CF763EDF8}|JobHubProject2\\JobHubProject2.csproj|solutionrelative:jobhubproject2\\controllers\\admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{431A0FF3-F26E-47BF-A3C1-D71CF763EDF8}|JobHubProject2\\JobHubProject2.csproj|c:\\users\\nihad\\source\\repos\\jobhubproject2\\jobhubproject2\\models\\job.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{431A0FF3-F26E-47BF-A3C1-D71CF763EDF8}|JobHubProject2\\JobHubProject2.csproj|solutionrelative:jobhubproject2\\models\\job.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{431A0FF3-F26E-47BF-A3C1-D71CF763EDF8}|JobHubProject2\\JobHubProject2.csproj|c:\\users\\nihad\\source\\repos\\jobhubproject2\\jobhubproject2\\models\\jobfm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{431A0FF3-F26E-47BF-A3C1-D71CF763EDF8}|JobHubProject2\\JobHubProject2.csproj|solutionrelative:jobhubproject2\\models\\jobfm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{431A0FF3-F26E-47BF-A3C1-D71CF763EDF8}|JobHubProject2\\JobHubProject2.csproj|c:\\users\\nihad\\source\\repos\\jobhubproject2\\jobhubproject2\\models\\company.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{431A0FF3-F26E-47BF-A3C1-D71CF763EDF8}|JobHubProject2\\JobHubProject2.csproj|solutionrelative:jobhubproject2\\models\\company.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{431A0FF3-F26E-47BF-A3C1-D71CF763EDF8}|JobHubProject2\\JobHubProject2.csproj|c:\\users\\nihad\\source\\repos\\jobhubproject2\\jobhubproject2\\models\\companyfm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{431A0FF3-F26E-47BF-A3C1-D71CF763EDF8}|JobHubProject2\\JobHubProject2.csproj|solutionrelative:jobhubproject2\\models\\companyfm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 9,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Account.cs",
+              "DocumentMoniker": "C:\\Users\\Nihad\\source\\repos\\JobHubProject2\\JobHubProject2\\Controllers\\Account.cs",
+              "RelativeDocumentMoniker": "JobHubProject2\\Controllers\\Account.cs",
+              "ToolTip": "C:\\Users\\Nihad\\source\\repos\\JobHubProject2\\JobHubProject2\\Controllers\\Account.cs",
+              "RelativeToolTip": "JobHubProject2\\Controllers\\Account.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAAKkAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-18T13:24:03.64Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Main.cs",
+              "DocumentMoniker": "C:\\Users\\Nihad\\source\\repos\\JobHubProject2\\JobHubProject2\\Controllers\\Main.cs",
+              "RelativeDocumentMoniker": "JobHubProject2\\Controllers\\Main.cs",
+              "ToolTip": "C:\\Users\\Nihad\\source\\repos\\JobHubProject2\\JobHubProject2\\Controllers\\Main.cs",
+              "RelativeToolTip": "JobHubProject2\\Controllers\\Main.cs",
+              "ViewState": "AgIAAJ8AAAAAAAAAAAAAAK0AAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-18T13:08:33.728Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Admin.cs",
+              "DocumentMoniker": "C:\\Users\\Nihad\\source\\repos\\JobHubProject2\\JobHubProject2\\Controllers\\Admin.cs",
+              "RelativeDocumentMoniker": "JobHubProject2\\Controllers\\Admin.cs",
+              "ToolTip": "C:\\Users\\Nihad\\source\\repos\\JobHubProject2\\JobHubProject2\\Controllers\\Admin.cs",
+              "RelativeToolTip": "JobHubProject2\\Controllers\\Admin.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-21T21:56:02.868Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "RegisterCompany.cshtml",
+              "DocumentMoniker": "C:\\Users\\Nihad\\source\\repos\\JobHubProject2\\JobHubProject2\\Views\\Account\\RegisterCompany.cshtml",
+              "RelativeDocumentMoniker": "JobHubProject2\\Views\\Account\\RegisterCompany.cshtml",
+              "ToolTip": "C:\\Users\\Nihad\\source\\repos\\JobHubProject2\\JobHubProject2\\Views\\Account\\RegisterCompany.cshtml",
+              "RelativeToolTip": "JobHubProject2\\Views\\Account\\RegisterCompany.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-21T22:57:05.404Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Notfound.cshtml",
+              "DocumentMoniker": "C:\\Users\\Nihad\\source\\repos\\JobHubProject2\\JobHubProject2\\Views\\Account\\Notfound.cshtml",
+              "RelativeDocumentMoniker": "JobHubProject2\\Views\\Account\\Notfound.cshtml",
+              "ToolTip": "C:\\Users\\Nihad\\source\\repos\\JobHubProject2\\JobHubProject2\\Views\\Account\\Notfound.cshtml",
+              "RelativeToolTip": "JobHubProject2\\Views\\Account\\Notfound.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-22T08:08:55.568Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MyAccount.cshtml",
+              "DocumentMoniker": "C:\\Users\\Nihad\\source\\repos\\JobHubProject2\\JobHubProject2\\Views\\Account\\MyAccount.cshtml",
+              "RelativeDocumentMoniker": "JobHubProject2\\Views\\Account\\MyAccount.cshtml",
+              "ToolTip": "C:\\Users\\Nihad\\source\\repos\\JobHubProject2\\JobHubProject2\\Views\\Account\\MyAccount.cshtml",
+              "RelativeToolTip": "JobHubProject2\\Views\\Account\\MyAccount.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-21T21:39:16.471Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\Nihad\\source\\repos\\JobHubProject2\\JobHubProject2\\Views\\Account\\Login.cshtml",
+              "RelativeDocumentMoniker": "JobHubProject2\\Views\\Account\\Login.cshtml",
+              "ToolTip": "C:\\Users\\Nihad\\source\\repos\\JobHubProject2\\JobHubProject2\\Views\\Account\\Login.cshtml",
+              "RelativeToolTip": "JobHubProject2\\Views\\Account\\Login.cshtml",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABoAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-22T07:53:48.001Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "EditInfo.cshtml",
+              "DocumentMoniker": "C:\\Users\\Nihad\\source\\repos\\JobHubProject2\\JobHubProject2\\Views\\Account\\EditInfo.cshtml",
+              "RelativeDocumentMoniker": "JobHubProject2\\Views\\Account\\EditInfo.cshtml",
+              "ToolTip": "C:\\Users\\Nihad\\source\\repos\\JobHubProject2\\JobHubProject2\\Views\\Account\\EditInfo.cshtml",
+              "RelativeToolTip": "JobHubProject2\\Views\\Account\\EditInfo.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-21T22:54:15.298Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AdminDashBoard.cshtml",
+              "DocumentMoniker": "C:\\Users\\Nihad\\source\\repos\\JobHubProject2\\JobHubProject2\\Views\\Admin\\AdminDashBoard.cshtml",
+              "RelativeDocumentMoniker": "JobHubProject2\\Views\\Admin\\AdminDashBoard.cshtml",
+              "ToolTip": "C:\\Users\\Nihad\\source\\repos\\JobHubProject2\\JobHubProject2\\Views\\Admin\\AdminDashBoard.cshtml",
+              "RelativeToolTip": "JobHubProject2\\Views\\Admin\\AdminDashBoard.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-21T21:57:23.952Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ManageJobPostings.cshtml",
+              "DocumentMoniker": "C:\\Users\\Nihad\\source\\repos\\JobHubProject2\\JobHubProject2\\Views\\Admin\\ManageJobPostings.cshtml",
+              "RelativeDocumentMoniker": "JobHubProject2\\Views\\Admin\\ManageJobPostings.cshtml",
+              "ToolTip": "C:\\Users\\Nihad\\source\\repos\\JobHubProject2\\JobHubProject2\\Views\\Admin\\ManageJobPostings.cshtml",
+              "RelativeToolTip": "JobHubProject2\\Views\\Admin\\ManageJobPostings.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-21T22:23:20.302Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ManageUsers.cshtml",
+              "DocumentMoniker": "C:\\Users\\Nihad\\source\\repos\\JobHubProject2\\JobHubProject2\\Views\\Admin\\ManageUsers.cshtml",
+              "RelativeDocumentMoniker": "JobHubProject2\\Views\\Admin\\ManageUsers.cshtml",
+              "ToolTip": "C:\\Users\\Nihad\\source\\repos\\JobHubProject2\\JobHubProject2\\Views\\Admin\\ManageUsers.cshtml",
+              "RelativeToolTip": "JobHubProject2\\Views\\Admin\\ManageUsers.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-21T22:01:03.882Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "RegisterEmployee.cshtml",
+              "DocumentMoniker": "C:\\Users\\Nihad\\source\\repos\\JobHubProject2\\JobHubProject2\\Views\\Admin\\RegisterEmployee.cshtml",
+              "RelativeDocumentMoniker": "JobHubProject2\\Views\\Admin\\RegisterEmployee.cshtml",
+              "ToolTip": "C:\\Users\\Nihad\\source\\repos\\JobHubProject2\\JobHubProject2\\Views\\Admin\\RegisterEmployee.cshtml",
+              "RelativeToolTip": "JobHubProject2\\Views\\Admin\\RegisterEmployee.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-21T22:57:07.711Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "CompanyAccount.cshtml",
+              "DocumentMoniker": "C:\\Users\\Nihad\\source\\repos\\JobHubProject2\\JobHubProject2\\Views\\Main\\CompanyAccount.cshtml",
+              "RelativeDocumentMoniker": "JobHubProject2\\Views\\Main\\CompanyAccount.cshtml",
+              "ToolTip": "C:\\Users\\Nihad\\source\\repos\\JobHubProject2\\JobHubProject2\\Views\\Main\\CompanyAccount.cshtml",
+              "RelativeToolTip": "JobHubProject2\\Views\\Main\\CompanyAccount.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-21T18:41:32.036Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "EditCompanyInfo.cshtml",
+              "DocumentMoniker": "C:\\Users\\Nihad\\source\\repos\\JobHubProject2\\JobHubProject2\\Views\\Main\\EditCompanyInfo.cshtml",
+              "RelativeDocumentMoniker": "JobHubProject2\\Views\\Main\\EditCompanyInfo.cshtml",
+              "ToolTip": "C:\\Users\\Nihad\\source\\repos\\JobHubProject2\\JobHubProject2\\Views\\Main\\EditCompanyInfo.cshtml",
+              "RelativeToolTip": "JobHubProject2\\Views\\Main\\EditCompanyInfo.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-21T17:33:38.79Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "HomePage.cshtml",
+              "DocumentMoniker": "C:\\Users\\Nihad\\source\\repos\\JobHubProject2\\JobHubProject2\\Views\\Main\\HomePage.cshtml",
+              "RelativeDocumentMoniker": "JobHubProject2\\Views\\Main\\HomePage.cshtml",
+              "ToolTip": "C:\\Users\\Nihad\\source\\repos\\JobHubProject2\\JobHubProject2\\Views\\Main\\HomePage.cshtml",
+              "RelativeToolTip": "JobHubProject2\\Views\\Main\\HomePage.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-21T19:06:26.188Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "JobPost.cshtml",
+              "DocumentMoniker": "C:\\Users\\Nihad\\source\\repos\\JobHubProject2\\JobHubProject2\\Views\\Main\\JobPost.cshtml",
+              "RelativeDocumentMoniker": "JobHubProject2\\Views\\Main\\JobPost.cshtml",
+              "ToolTip": "C:\\Users\\Nihad\\source\\repos\\JobHubProject2\\JobHubProject2\\Views\\Main\\JobPost.cshtml",
+              "RelativeToolTip": "JobHubProject2\\Views\\Main\\JobPost.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-21T17:06:58.868Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Jobs.cshtml",
+              "DocumentMoniker": "C:\\Users\\Nihad\\source\\repos\\JobHubProject2\\JobHubProject2\\Views\\Main\\Jobs.cshtml",
+              "RelativeDocumentMoniker": "JobHubProject2\\Views\\Main\\Jobs.cshtml",
+              "ToolTip": "C:\\Users\\Nihad\\source\\repos\\JobHubProject2\\JobHubProject2\\Views\\Main\\Jobs.cshtml",
+              "RelativeToolTip": "JobHubProject2\\Views\\Main\\Jobs.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-21T21:31:32.285Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Nihad\\source\\repos\\JobHubProject2\\JobHubProject2\\Program.cs",
+              "RelativeDocumentMoniker": "JobHubProject2\\Program.cs",
+              "ToolTip": "C:\\Users\\Nihad\\source\\repos\\JobHubProject2\\JobHubProject2\\Program.cs",
+              "RelativeToolTip": "JobHubProject2\\Program.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAmwEUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-22T07:06:14.231Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Job.cs",
+              "DocumentMoniker": "C:\\Users\\Nihad\\source\\repos\\JobHubProject2\\JobHubProject2\\Models\\Job.cs",
+              "RelativeDocumentMoniker": "JobHubProject2\\Models\\Job.cs",
+              "ToolTip": "C:\\Users\\Nihad\\source\\repos\\JobHubProject2\\JobHubProject2\\Models\\Job.cs",
+              "RelativeToolTip": "JobHubProject2\\Models\\Job.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAwwAgAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-21T17:29:47.281Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "JobFM.cs",
+              "DocumentMoniker": "C:\\Users\\Nihad\\source\\repos\\JobHubProject2\\JobHubProject2\\Models\\JobFM.cs",
+              "RelativeDocumentMoniker": "JobHubProject2\\Models\\JobFM.cs",
+              "ToolTip": "C:\\Users\\Nihad\\source\\repos\\JobHubProject2\\JobHubProject2\\Models\\JobFM.cs",
+              "RelativeToolTip": "JobHubProject2\\Models\\JobFM.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-21T18:47:08.049Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Company.cs",
+              "DocumentMoniker": "C:\\Users\\Nihad\\source\\repos\\JobHubProject2\\JobHubProject2\\Models\\Company.cs",
+              "RelativeDocumentMoniker": "JobHubProject2\\Models\\Company.cs",
+              "ToolTip": "C:\\Users\\Nihad\\source\\repos\\JobHubProject2\\JobHubProject2\\Models\\Company.cs",
+              "RelativeToolTip": "JobHubProject2\\Models\\Company.cs",
+              "ViewState": "AgIAADgAAAAAAAAAAAAQwEYAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-21T17:33:46.523Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "CompanyFM.cs",
+              "DocumentMoniker": "C:\\Users\\Nihad\\source\\repos\\JobHubProject2\\JobHubProject2\\Models\\CompanyFM.cs",
+              "RelativeDocumentMoniker": "JobHubProject2\\Models\\CompanyFM.cs",
+              "ToolTip": "C:\\Users\\Nihad\\source\\repos\\JobHubProject2\\JobHubProject2\\Models\\CompanyFM.cs",
+              "RelativeToolTip": "JobHubProject2\\Models\\CompanyFM.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-21T17:07:50.382Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

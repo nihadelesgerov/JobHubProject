@@ -1,0 +1,242 @@
+﻿@model IList<Job>
+@using Microsoft.AspNetCore.Identity
+@inject SignInManager<AppUser> signInManager
+@{
+    Layout = null;
+}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HomePage</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="~/download.png">
+
+
+</head>
+<body>
+    <header class="header">
+        <div class="logo">
+            <h1>JobHub</h1>
+        </div>
+        <nav class="nav-links">
+            @if (User.IsInRole("Employee"))
+            {
+                <a asp-controller="Account" asp-action="MyAccount">MyAccount</a>
+                <form asp-action="LogOut" asp-controller="Account" method="post">
+                    <button>LogOut</button>
+                </form>
+            }
+            else if (User.IsInRole("Company"))
+            {
+                <a asp-controller="Main" asp-action="CompanyAccount">CompanyAccount</a>
+                <form asp-action="LogOut" asp-controller="Account" method="post">
+                    <button>LogOut</button>
+                </form>
+            }
+            else
+            {
+                <a asp-action="Login" asp-controller="Account">Login</a>
+                <div class="register-dropdown">
+                    <a>Register</a>
+                    <div class="dropdown-content">
+                        <a asp-controller="Account" asp-action="RegisterCompany">Company</a>
+                        <a asp-controller="Account" asp-action="RegisterEmployee">Employee</a>
+                    </div>
+                </div>
+            }
+        </nav>
+    </header>
+
+    <section class="hero">
+        <input type="text" class="search-bar" placeholder="Search for jobs, companies...">
+    </section>
+
+    <section class="featured-jobs">
+        <h2>Featured Job Listings</h2>
+        <div class="carousel">
+            @foreach (var job in Model)
+            {
+                <a asp-action="Jobs" asp-controller="Main" asp-route-id="@job.Id" class="carousel-item">
+                    <span>@job.Title</span> at <strong>@job.Company.CompanyName</strong><br>
+                    Salary: <em>@job.Salary</em>
+                </a>
+            }
+        </div>
+    </section>
+
+    <section class="job-categories">
+        <h2>Popular Categories</h2>
+        <div class="categories-grid">
+            <a href="/Jobs/Category/IT">IT & Software</a>
+            <a href="/Jobs/Category/Marketing">Marketing</a>
+            <a href="/Jobs/Category/Education">Education</a>
+            <a href="/Jobs/Category/Finance">Finance</a>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <p>&copy; 2024 KaryeSphera. All rights reserved.</p>
+    </footer>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Poppins', sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+
+        /* Header */
+        .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px 40px;
+            background-color: #1f1f1f;
+            color: white;
+        }
+
+        .nav-links a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: white;
+            font-weight: 600;
+            transition: color 0.3s;
+        }
+
+            .nav-links a:hover {
+                color: #64b5f6;
+            }
+
+        .register-dropdown {
+            position: relative;
+        }
+
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            top: 100%;
+            background-color: #64b5f6;
+            min-width: 100px;
+            text-align: center;
+        }
+
+        .register-dropdown:hover .dropdown-content {
+            display: block;
+        }
+
+        .dropdown-content a {
+            padding: 10px;
+            color: white;
+            display: block;
+        }
+
+            .dropdown-content a:hover {
+                background-color: #42a5f5;
+            }
+
+        /* Hero Section */
+        .hero {
+            margin: 40px auto;
+            text-align: center;
+        }
+
+        .search-bar {
+            width: 60%;
+            padding: 12px;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+        }
+
+        /* Carousel */
+        .featured-jobs {
+            text-align: center;
+            margin: 30px auto;
+        }
+
+        .carousel {
+            display: flex;
+            gap: 20px;
+            overflow-x: auto;
+            padding: 10px 0;
+        }
+
+        .carousel-item {
+            min-width: 200px;
+            background-color: #1f1f1f;
+            padding: 15px;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s;
+            text-align: center;
+            color:blue;
+        }
+
+            .carousel-item:hover {
+                transform: scale(1.05);
+            }
+
+        /* Categories */
+        .job-categories {
+            margin: 30px auto;
+            text-align: center;
+        }
+
+        .categories-grid {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 20px;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+            .categories-grid a {
+                padding: 15px;
+                background-color: #1f1f1f;
+                color: white;
+                border-radius: 8px;
+                text-decoration: none;
+                text-align: center;
+                transition: background-color 0.3s;
+            }
+
+                .categories-grid a:hover {
+                    background-color: #1f1f2f;
+                }
+
+        /* Footer */
+        .footer {
+            background-color: #283593;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            margin-top: auto;
+        }
+
+        button {
+            background-color: #283593;
+            color: white;
+            border: none;
+            cursor: pointer;
+            padding: 10px;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+
+            button:hover {
+                background-color: #3949ab;
+            }
+    </style>
+</body>
+</html>

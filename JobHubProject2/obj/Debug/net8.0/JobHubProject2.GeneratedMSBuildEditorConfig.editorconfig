@@ -1,0 +1,95 @@
+is_global = true
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = JobHubProject2
+build_property.RootNamespace = JobHubProject2
+build_property.ProjectDir = C:\Users\Nihad\source\repos\JobHubProject2\JobHubProject2\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 8.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\Nihad\source\repos\JobHubProject2\JobHubProject2
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/Nihad/source/repos/JobHubProject2/JobHubProject2/Views/Account/EditInfo.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxFZGl0SW5mby5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Nihad/source/repos/JobHubProject2/JobHubProject2/Views/Account/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxMb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Nihad/source/repos/JobHubProject2/JobHubProject2/Views/Account/MyAccount.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxNeUFjY291bnQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Nihad/source/repos/JobHubProject2/JobHubProject2/Views/Account/Notfound.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxOb3Rmb3VuZC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Nihad/source/repos/JobHubProject2/JobHubProject2/Views/Account/RegisterCompany.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxSZWdpc3RlckNvbXBhbnkuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Nihad/source/repos/JobHubProject2/JobHubProject2/Views/Admin/AdminDashBoard.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQWRtaW5EYXNoQm9hcmQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Nihad/source/repos/JobHubProject2/JobHubProject2/Views/Admin/ManageJobPostings.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cTWFuYWdlSm9iUG9zdGluZ3MuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Nihad/source/repos/JobHubProject2/JobHubProject2/Views/Admin/ManageUsers.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cTWFuYWdlVXNlcnMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Nihad/source/repos/JobHubProject2/JobHubProject2/Views/Admin/RegisterEmployee.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cUmVnaXN0ZXJFbXBsb3llZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Nihad/source/repos/JobHubProject2/JobHubProject2/Views/Main/CompanyAccount.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFpblxDb21wYW55QWNjb3VudC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Nihad/source/repos/JobHubProject2/JobHubProject2/Views/Main/EditCompanyInfo.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFpblxFZGl0Q29tcGFueUluZm8uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Nihad/source/repos/JobHubProject2/JobHubProject2/Views/Main/HomePage.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFpblxIb21lUGFnZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Nihad/source/repos/JobHubProject2/JobHubProject2/Views/Main/JobPost.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFpblxKb2JQb3N0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Nihad/source/repos/JobHubProject2/JobHubProject2/Views/Main/Jobs.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFpblxKb2JzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Nihad/source/repos/JobHubProject2/JobHubProject2/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Nihad/source/repos/JobHubProject2/JobHubProject2/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Nihad/source/repos/JobHubProject2/JobHubProject2/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Nihad/source/repos/JobHubProject2/JobHubProject2/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Nihad/source/repos/JobHubProject2/JobHubProject2/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-dws19tthio
